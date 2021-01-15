@@ -1,39 +1,17 @@
-def stylish_chef
-  best_hairstyle = "Guy Fieri"
-  return "Martha Stewart"
-  "Guy Fieri"
+if true
+  puts "true is truthy, duh!"
+else
+  puts "true is falsey, wtf!"
 end
 
-puts stylish_chef
-
-def change_my_name
-  name = "Frank"
-  puts name.reverse
-  return name
+if nil
+  puts "nil is truthy"
+else
+  puts "nil is falsey"
 end
 
-puts change_my_name
-
-puts 6 + 3
-
-total = 6 + 3
-
-puts total
-
-new_total = total + 10 
-
-puts new_total
-
-def print_one_plus_one
-  puts 1+1
+if 0
+  puts "0 is truthy"
+else
+  puts "0 is falsey"
 end
-
-print_one_plus_one
-
-def one_plus_one 
-  1+1 
-end
-
-puts one_plus_one
-
-puts total + 17
